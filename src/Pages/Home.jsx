@@ -1,10 +1,11 @@
-import Nav from "../Component/Nav";
+import Hero from "../Component/Hero";
+
 
 const Home = () => {
     return (
-        <div>
+        <div className="flex flex-col items-center justify-center min-h-[calc(100vh-116px)]">
             
-            <h2>HomePage</h2>
+            <Hero> </Hero>
         </div>
     );
 };
