@@ -1,15 +1,18 @@
 
 import './App.css'
+import Bookmarks from './Pages/Bookmarks'
 import Home from './Pages/Home'
+import Blogs from './Pages/Blogs'
 
 
-Home
 function App() {
   
 
   return (
     <>
       <Home></Home>
+      <Blogs></Blogs>
+      <Bookmarks></Bookmarks>
     </>
   )
 }
